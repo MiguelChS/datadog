@@ -1,0 +1,49 @@
+{
+  "header": null,
+  "body": {
+    "key": "mainContainer",
+    "width": -1,
+    "height": -1,
+    "render": {
+      "type": "container",
+      "attributes": {
+        "orientation": "vertical",
+        "children": [
+          {
+            "key": "textName",
+            "width": -1,
+            "height": 0,
+            "render": {
+              "type": "text",
+              "attributes": {
+                "text": "Hola ${name}"
+              }
+            }
+          },
+          {
+            "key": null,
+            "width": -1,
+            "height": -1,
+            "on_change": {
+              "text": "${name}"
+            },
+            "render": {
+              "type": "edit_text",
+              "attributes": {
+                "text": "",
+                "hint": "Tu nombre",
+                "hint_style": null,
+                "text_style": null,
+                "decorator": null
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "bottom": null,
+  "state": {
+    "name": ""
+  }
+}
